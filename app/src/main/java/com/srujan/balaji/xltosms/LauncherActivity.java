@@ -37,7 +37,7 @@ public class LauncherActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //srujan123
+        //srujan123 branch
         setContentView(R.layout.activity_launcher);
         gmailId = getSharedPreferences(SHARED_PREFS,MODE_PRIVATE).getString(EMAIL_ID, DEFAULT);
         gmailPassword = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE).getString(PASSWORD, DEFAULT);

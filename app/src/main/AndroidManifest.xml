@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.srujan.balaji.xltosms" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/my_app_logo"
+        android:label="Payment Reminder"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LauncherActivity"
+            android:label="Payment Reminder"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListviewActivity"
+            android:label="Showing List"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MailConfigActivity"
+            android:label="App Settings"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_individual_account_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/bt_individual_account_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF6F59"
+        android:textColor="@android:color/white"
+        android:text="sms" />
+
+    <Button
+        android:id="@+id/bt_individual_account_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email" />
+</LinearLayout>
